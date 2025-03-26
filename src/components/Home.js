@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Navbar from "./Navbar";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
+  return <div className='home-conatiner' >
+    <Navbar />
+  </div>
 }
 
 export default Home
